@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=0
+export TF_CONFIG='{"cluster": {"worker": ["192.169.0.108:12345", "192.169.0.146:12345", "192.169.0.128:12345"]}, "task": {"index": 0, "type": "worker"}}'
